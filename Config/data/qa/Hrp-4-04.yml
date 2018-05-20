@@ -9,6 +9,5 @@ Hrp_checkindetails:
   roomnos: '1'
   adults: '1'
 
-Hrp_error:
-  checkinmsg: 'Check-In Date shall be before than Check-Out Date'
-
+Hrp_validation:
+  roomtype: Standard

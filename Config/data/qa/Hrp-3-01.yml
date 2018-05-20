@@ -10,5 +10,4 @@ Hrp_checkindetails:
   adults: '1'
 
 Hrp_error:
-  checkinmsg: 'Check-In Date shall be before than Check-Out Date'
-
+ checkoutmsg: 'Check-In Date should be either Today or Later Date'

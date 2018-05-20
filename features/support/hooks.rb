@@ -13,6 +13,11 @@ Before do |scenario|
 end
 
 
+AfterStep do
+  encoded_img = @browser.driver.screenshot_as(:base64)
+  embed("data:image/png;base64,#{encoded_img}",'image/png')
+end
+
 After do |scenario|
   if scenario.failed?
     saveScreenShot
@@ -21,5 +26,6 @@ After do |scenario|
     @browser.alert.ok if @browser.alert.present?
     end
   hrp_customer_logout
+  saveScreenShot
   @browser.close
 end

@@ -10,7 +10,6 @@ module Access
   end
 
   def hrp_customer_logout
-    saveScreenShot
     on(Hrp_home).logout
   end
 end

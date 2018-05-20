@@ -6,9 +6,12 @@ Hrp_checkindetails:
   location: Sydney
   hotels: Hotel Creek
   roomtype: Standard
-  roomnos: '1'
+  roomnos: '2'
   adults: '1'
 
-Hrp_error:
-  checkinmsg: 'Check-In Date shall be before than Check-Out Date'
-
+Hrp_validations:
+  hotel_name: 'Hotel Creek'
+  location: 'Sydney'
+  room_type: 'Standard'
+  total_day: '1 Day(s)'
+  price_night: 'AUD $ 125'

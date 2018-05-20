@@ -1,3 +1,4 @@
+@regression
 Feature: As a customer, I would like to verify my login details
 
   Scenario: Hrp-1-01: Verify that user is able to login into build 1 application
