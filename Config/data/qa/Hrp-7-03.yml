@@ -1,0 +1,33 @@
+Hrp_login:
+  username: SaiMallikarjun
+  password1: QXV0b21hdGlvbkB1czIwMTg=\n
+
+Hrp_checkindetails:
+  location: Melbourne
+  hotels: Hotel Sunshine
+  roomtype: Deluxe
+  roomnos: '2'
+  adults: '1'
+
+Hrp_bookingfields:
+  field1: 'location'
+  field2: 'order'
+  field3: 'hotel'
+  field4: 'rooms'
+  field5: 'first'
+  field6: 'last'
+  field7: 'arr_date'
+  field8: 'dep_date'
+  field9: 'no_days'
+  field10: 'room_type'
+  field11: 'price_night'
+  field12: 'total_price'
+
+Hrp_validatefields:
+ location: Melbourne
+ hotels: Hotel Sunshine
+ roomnos: '2 Room(s)'
+ first_name: Novak
+ last_name: Djokovic
+ roomtype: Deluxe
+ no_days: 1 Day(s)

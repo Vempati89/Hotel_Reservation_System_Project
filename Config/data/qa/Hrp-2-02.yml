@@ -1,0 +1,14 @@
+Hrp_login:
+  username: SaiMallikarjun
+  password1: QXV0b21hdGlvbkB1czIwMTg=\n
+
+Hrp_checkindetails:
+  location: Sydney
+  hotels: Hotel Creek
+  roomtype: Standard
+  roomnos: '1'
+  adults: '1'
+
+Hrp_error:
+  checkinmsg: 'Check-Out Date shall be after than Check-In Date'
+

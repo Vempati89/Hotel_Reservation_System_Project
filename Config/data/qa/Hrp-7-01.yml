@@ -1,0 +1,21 @@
+Hrp_login:
+  username: SaiMallikarjun
+  password1: QXV0b21hdGlvbkB1czIwMTg=\n
+
+Hrp_checkindetails:
+  location: Melbourne
+  hotels: Hotel Sunshine
+  roomtype: Deluxe
+  roomnos: '2'
+  adults: '1'
+
+Hrp_booking:
+ first_name: Novak
+ last_name: Djokovic
+ billing_address: 8396 Gradington Dr, Westerville, OH-43081
+ credit_card: 9876543211234567
+# select_card: VISA
+# select_month: April
+# select_year: 2020
+ cvv: 127
+

@@ -1,1 +1,1 @@
-default: --no-source --color --format pretty
+default: --no-source --color -r features --format progress --format html --out=Arjun_report.html
