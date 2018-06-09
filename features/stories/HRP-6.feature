@@ -2,7 +2,7 @@
 Feature: As a customer, I would verify the booking details on  booking confirmation screen
 
   Background:
-    Given User selects build_2
+    Given User logs into application
 
   Scenario: Verify Hotel, Location, room type, Total day, price per night on booking confirmation screen
     When User enters data from Hrp-6-01

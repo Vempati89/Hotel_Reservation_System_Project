@@ -11,6 +11,17 @@ include Access
 
 World(PageObject::PageFactory)
 
+# Grid Setup
+
+def browser_name
+#  (ENV['BROWSER'] ||= 'chrome').downcase.to_sym
+  (ENV['BROWSER'] ||= 'IE').downcase.to_sym
+end
+
+def environment
+  (ENV['ENVI'] ||= 'int').downcase.to_sym
+end
+
 def saveScreenShot
   encoded_img = @browser.driver.screenshot_as(:base64)
   embed("data:image/png;base64,#{encoded_img}",'image/png')

@@ -2,7 +2,7 @@
 Feature: As a customer, I want to verify the titles buttons and links
 
   Background:
-    Given User selects build_2
+    Given User logs into application
 
   Scenario: Verify title of login page
     When User enters data from Hrp-8-01

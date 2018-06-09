@@ -2,7 +2,7 @@
 Feature: As a customer, I would check and verify bookings with order number
 
   Background:
-    Given User selects build_2
+    Given User logs into application
 
   Scenario: Verify the order number is generated after booking is confirmed
     When User enters data from Hrp-7-01
@@ -17,7 +17,7 @@ Feature: As a customer, I would check and verify bookings with order number
     And user searches with order id
     Then relevant details are displayed
 
-  @not_regression
+   @not_regression
   Scenario: Verify displayed data fields are not editable
     When User enters data from Hrp-7-03
     And User clicks booked itinerary
