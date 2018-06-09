@@ -2,7 +2,7 @@
 Feature: As a customer, I would like to verify the details according to my search criteria
 
   Background:
-    Given User selects build_2
+    Given User logs into application
 
   Scenario: Hrp-4-01: Verify whether locations in Select Hotel page are displayed according to the location selected in Search Hotel
     And User enters data from Hrp-4-01

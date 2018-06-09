@@ -2,7 +2,7 @@
 Feature: As a customer, I would verify the price of the rooms as per the given data
 
   Background:
-    Given User selects build_2
+    Given User logs into application
 
   Scenario Outline: Verify whether the total price is calculated as per rooms and price
     And User enters data from <datafile>
